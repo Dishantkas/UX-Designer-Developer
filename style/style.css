@@ -1,20 +1,25 @@
 :root {
     --color: 255, 71, 84;
     --cursor-size: 1000px;
-}
+}@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 
 html,
 body {
     height: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
     margin: 0;
     overflow: hidden;
-
+    padding: 0;
+    border: border-box;
     background: #0F172A;
+}p{
+    margin: 0;
 }
 
 .custom-cursor {
@@ -32,6 +37,48 @@ body {
     
     
       pointer-events: none;
+}.home{
+    height: 985px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.name{
+    width: 918px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}.name1{
+    color: #eeeeee;
+    font-size: 8rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center; 
+    font-weight: 600;
+}.name2{
+    color: #AABEE5;
+    font-size: 1.9rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center; 
+    font-weight: 400;
+    letter-spacing: 12px;
+}.name3{
+    color: #8A9ABA;
+    font-size: 2rem;
+    text-align: center; 
+    font-weight: 400;
+}.menu{
+    color: #94A3B8;
+    opacity: 52%;
+    font-size: 1.3rem;
+    width: 120px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1680px;
+    margin-bottom: 450px;
 }
 
 
