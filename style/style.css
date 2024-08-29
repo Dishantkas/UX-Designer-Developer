@@ -115,7 +115,112 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 5%;
+    padding: 7% 5%;
+}.project{
+    height: 859px;
+    width: 1440px;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+
+}.divider{
+    height: 1000px;
+    border: 1px dashed #59DCC9;
+}.workexp{
+    width: 852px;
+    height: 910px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}.skill{
+    width: 355px;
+    height: 930px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}.workexpbrief{
+    width: auto;
+    height: auto;
+    background-color: #111c34;
+    box-shadow: #59DCC9;
+    box-shadow: 0px 0px 5px #59DCC9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    padding: 30px 30px;
+}.exp1{
+    font-size: 1.4rem;
+    color: #eeeeee;
+    font-weight: 700;
+    padding-bottom: 5px;
+}.exp2{
+    font-size: 1.2rem;
+    color: #8A9ABA;
+    font-weight: 600;
+    padding-bottom: 5px;
+}.exp3{
+    font-size: 1rem;
+    color: #8A9ABA;
+    font-weight: 500;
+}
+.workexptitle{
+    color: #eeeeee;
+    font-size: 2.8rem;
+    font-weight: 600;
+}.skilltitle{
+    color: #eeeeee;
+    font-size: 2.8rem;
+    font-weight: 600;
+}.skillbrief{
+    width: auto;
+    height: auto;
+    background-color: #111c34;
+    box-shadow: #59DCC9;
+    box-shadow: 0px 0px 5px #59DCC9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+    padding: 20px 20px;
+}.wexp{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 860px;
+    height: auto;
+}.wskill{
+    margin-top: 70px;
+    width: 380px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}.skillbt2{
+    height: auto;
+    width: auto;
+    color: #59DCC9;
+    font-size: 0.8rem;
+}.skillbt{
+    color: #eeeeee;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}.skillbt2 p{
+    height: auto;
+    width: auto;
+    padding: 7px 10px;
+    background-color: #122C39;
+    border-radius: 30px;
     
 }
 
