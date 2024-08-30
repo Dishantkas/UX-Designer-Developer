@@ -118,7 +118,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7% 5%;
+    padding: 4% 5%;
 }.project{
     height: 859px;
     width: 1440px;
@@ -127,7 +127,7 @@ p{
     justify-content: space-between;
 
 }.divider{
-    height: 1000px;
+    height: 830px;
     border: 1px dashed #59DCC9;
 }.workexp{
     width: 852px;
@@ -180,7 +180,7 @@ p{
     font-size: 2.8rem;
     font-weight: 600;
 }.skillbrief{
-    width: auto;
+    width: 350px;
     height: auto;
     background-color: #111c34;
     box-shadow: #59DCC9;
@@ -214,4 +214,22 @@ p{
     font-size: 1.4rem;
     font-weight: 600;
     
+}.skillbt2{
+    color: #59DCC9;
+    margin-top: 10px;
+    line-height: 30px;
+}.div3{
+    width: 640px;
+    height: 1px;
+    background-color: #59DCC9;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 1260px;
+}.div4{
+    width: 640px;
+    height: 1px;
+    background-color: #59DCC9;
+    position: absolute;
+    margin-top: 1100px;
+    margin-right: 1260px;
 }
