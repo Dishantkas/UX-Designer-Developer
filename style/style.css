@@ -205,27 +205,10 @@ p{
     flex-direction: column;
     
     align-items: center;
-}.skillbt2{
-    height: auto;
-    width: auto;
-    color: #59DCC9;
-    font-size: 0.8rem;
-}.skillbt{
+}
+.skillbt{
     color: #eeeeee;
     font-size: 1.4rem;
     font-weight: 600;
     
-}.skillbt2 p{
-    height: auto;
-    width: auto;
-    padding: 7px 10px;
-    background-color: #122C39;
-    border-radius: 30px;
-    
 }
-
-
-
-
-
-
