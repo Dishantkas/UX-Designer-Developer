@@ -285,10 +285,49 @@ p{
 }.projects{
     height: 985px;
     width: 76%;
-   
-    padding: 4% 12%;
+    display: flex;
+    justify-content: center;
+    
+    padding: 0% 12%;
 }.projecttitle{
     color: #eeeeee;
     font-size: 2.8rem;
     font-weight: 600;
+    
+}.prj{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}.prj2{
+    display: flex;
+    gap: 100px;
+}
+.ui{
+    width: 154px;
+    height: 55px;
+    background-color: #122C39;
+    border-radius: 25px;
+    color: #59DCC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}.html{
+    width: 184px;
+    height: 55px;
+    background-color: #122C3900;
+    border-radius: 25px;
+    color: #59DCC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}.prjmain{
+    width: 30%;
+}.prjimage{
+    background-image: url(assets/1.png);
+    background-color: #59DCC9;
 }
