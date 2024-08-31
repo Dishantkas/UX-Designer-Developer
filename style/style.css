@@ -16,7 +16,37 @@ body {
 p{
     margin: 0;
 }
-
+.cursor {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+  }a{
+    text-decoration: none;
+    color: #94A3B8;
+  }
+  
+  .outer {
+    border: 1px solid #f7f7f770;
+  }
+  
+  .inner {
+    background: #59DCC920;
+    transition: 250ms ease-out;
+  }
+  
+  .cursor.hover {
+    transform: translate(-50%, -50%) scale(4);
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .inner.hover {
+    background: #f7f7f7;
+    mix-blend-mode: difference;
+  }
 .home{
     height: 910px;
     width: 90%;
@@ -53,27 +83,26 @@ p{
 }.menu p:hover{
     color: #59DCC9;
     cursor: pointer;
-    scale: 1.01;
     transition-duration: .5s;
-    font-weight: 700;
-}.navbar{
+}
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70%;
     height: 70px;
-    padding: 0% 15%;
-    background-color: #172a52;
-    backdrop-filter: blur(50%);
+    padding: 0% 15%; 
+    background: rgba(15, 23, 42, );
+    backdrop-filter: blur(10px);
     position: fixed;
     z-index: 999;
-}
-.menu{
+}.menu{
     color: #94A3B8;
     font-size: 1.1rem;
     display: flex;
     justify-content: space-between;  
     width: 50%; 
+    font-weight: 600;
 }.logo{
     
     color: #59DCC9;
