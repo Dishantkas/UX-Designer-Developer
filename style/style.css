@@ -31,9 +31,9 @@ p{
   }
   
   .outer {
-    background: radial-gradient(#0040ff 20%, #182b54 50%);
+    background: radial-gradient(#0044ff50 20%, #182b54 80%);
     filter: blur(100px);
-    opacity: 10%;
+    opacity: 15%;
     height: 800px;
     width: 800px;
   }
