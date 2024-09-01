@@ -350,7 +350,7 @@ p{
     margin-left: 200px;
     
 }.prjbrief{
-    font-size: .9rem;
+    font-size: 1rem;
     width: 590px;
     color: #8A9ABA;
     background-color: #122C39;
@@ -359,7 +359,12 @@ p{
     text-wrap: pretty;
     
     
-}.prjmain{
+}.prjbrief b{
+    color: #59DCC9;
+}.prjbrief2 b{
+    color: #59DCC9;
+}
+.prjmain{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -374,10 +379,11 @@ p{
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 270px;
+    margin-left: 300px;
+    text-align: right;
     
 }.prjbrief2{
-    font-size: .9rem;
+    font-size: 1rem;
     width: 590px;
     color: #8A9ABA;
     background-color: #122C39;
