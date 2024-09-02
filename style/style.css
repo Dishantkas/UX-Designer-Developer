@@ -33,7 +33,7 @@ p{
   .outer {
     background: radial-gradient(#0044ff80 20%, #182b54 80%);
     filter: blur(80px);
-    opacity: 15%;
+    opacity: 10%;
     height: 1000px;
     width: 1000px;
   }
@@ -225,7 +225,7 @@ p{
     font-size: 2.8rem;
     font-weight: 600;
 }.skillbrief{
-    width: 250px;
+    width: auto;
     height: auto;
     background-color: #111c34;
     box-shadow: #59DCC9;
@@ -236,8 +236,22 @@ p{
     justify-content: center;
     margin-bottom: 30px;
     
-    padding: 20px 20px;
-}.wexp{
+    padding: 25px 25px;
+}.sinfo{
+    display: flex;
+    gap: 13px;
+    width: 305px;
+    height: 35px;
+    font-size: .8rem;
+}.sinfo p{
+    background-color: #122C39;
+    padding: 7px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.wexp{
     margin-top: 70px;
     display: flex;
     flex-direction: column;
@@ -261,8 +275,12 @@ p{
     
 }.skillbt2{
     color: #59DCC9;
-    margin-top: 10px;
+    margin-top: 13px;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
 }.div3{
     width: 640px;
     height: 1px;
@@ -432,6 +450,22 @@ p{
     width: 517px;
     height: 326px;
     border-radius: 6px;
+}.prjimage:hover{
+    background-image: url(../assets/1_1.png);
+    transition: ease-in-out 0.4s;
+}.prjimage2:hover{
+    background-image: url(../assets/2_1.png);
+    transition: ease-in-out 0.4s;
+}.prjimage3:hover{
+    background-image: url(../assets/3_1.png);
+    transition: ease-in-out 0.2s;
+}.prjtitle:hover{
+    text-shadow: -4px 4px 0px #59DCC9;
+    margin-left: 202px;
+    
+}.prjtitle2:hover{
+    text-shadow: 4px 4px 0px #59DCC9;
+    margin-left: 298px;
 }
 .logos2{
     transform: scaleX(-1);
