@@ -165,17 +165,18 @@ p{
     padding: 6% 12%;
 }.project{
     height: auto;
-    width: 100%;
+    width: auto;
     display: flex;
     padding: 0px 20px;
     justify-content: space-evenly;
+    gap: 60px;
     margin-top: 90px;
 
 }.divider{
     border: #59DCC9;
 }.workexp{
-    width: 852px;
-    height: 910px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     
@@ -242,12 +243,12 @@ p{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 860px;
+    width: auto;
     height: auto;
 }.wskill{
     margin-top: 70px;
     width: auto;
-    height: 800px;
+    height: auto;
     display: flex;
     flex-direction: column;
     
@@ -447,5 +448,15 @@ canvas{
   display:block;
   
 }
+
+
+
+
+
+
+
+
+
+
 
 
