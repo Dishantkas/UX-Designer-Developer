@@ -318,6 +318,10 @@ p{
 }.prj2{
     display: flex;
     gap: 100px;
+}.prjclick{
+    display: block;
+}.prjclick2{
+    display: none;
 }
 .ui{
     width: 154px;
@@ -329,7 +333,7 @@ p{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-
+    cursor: pointer;
 }.html{
     width: 184px;
     height: 55px;
@@ -468,10 +472,33 @@ p{
 }.prjtitle2:hover{
     text-shadow: 4px 4px 0px #59DCC9;
     margin-left: 298px;
+}.prjimage5{
+    background-image: url(../assets/2.png);
+    background-color: #59DCC9;
+    width: 517px;
+    height: 326px;
+    border-radius: 6px;
+    margin-left: 913px;
+}.prjimage4{
+    background-image: url(../assets/3.png);
+    background-color: #59DCC9;
+    width: 517px;
+    height: 326px;
+    border-radius: 6px;
+}.prjimage6{
+    background-image: url(../assets/3.png);
+    background-color: #59DCC9;
+    width: 517px;
+    height: 326px;
+    border-radius: 6px;
 }
 .logos2{
     transform: scaleX(-1);
 }.html:hover{
+    background-color: #122C39;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}.ui:hover{
     background-color: #122C39;
     cursor: pointer;
     transition: ease-in-out 0.4s;

@@ -167,3 +167,35 @@ window.addEventListener('scroll', () => {
    }
     });
 } );
+
+
+
+
+var ui = document.getElementById("ui");
+var html = document.getElementById("html");
+var prjclick = document.getElementById("prjclick");
+var prjclick2 = document.getElementById("prjclick2");
+
+
+// html.addEventListener('mouseover', ()=>{
+//   html.style.backgroundColor='#122C39';
+// } );
+// html.addEventListener('mouseleave', ()=>{
+//   html.style.backgroundColor='#122C3900';
+//   html,style.transition='ease-in-out 0.4s';
+
+// } );
+
+ui.addEventListener('click', ()=>{
+  prjclick.style.display='block';
+  prjclick2.style.display='none';
+  ui.style.backgroundColor='#122C39';
+  html.style.backgroundColor='#122C3900';
+} );
+
+html.addEventListener('click', ()=>{
+  prjclick2.style.display='block';
+  prjclick.style.display='none';
+  ui.style.backgroundColor='#122C3900';
+  html.style.backgroundColor='#122C39';
+} );
