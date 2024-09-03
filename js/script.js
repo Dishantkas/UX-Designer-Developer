@@ -177,14 +177,7 @@ var prjclick = document.getElementById("prjclick");
 var prjclick2 = document.getElementById("prjclick2");
 
 
-// html.addEventListener('mouseover', ()=>{
-//   html.style.backgroundColor='#122C39';
-// } );
-// html.addEventListener('mouseleave', ()=>{
-//   html.style.backgroundColor='#122C3900';
-//   html,style.transition='ease-in-out 0.4s';
 
-// } );
 
 ui.addEventListener('click', ()=>{
   prjclick.style.display='block';
