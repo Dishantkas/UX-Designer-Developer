@@ -159,7 +159,7 @@ p{
     margin-bottom: 960px;
 }.wrap{
     width: 90%;
-    max-width: 1540px;
+    max-width: 1500px;
     height: 80px;
     background-color: #0f172a;
     margin-inline: auto;
@@ -179,7 +179,7 @@ p{
  height: 60px;
  
  position: absolute;
- left: 100%;
+ left: calc(160px * 12);
  animation-name: scrollleft;
  animation-duration: 30s;
  animation-timing-function: linear;
