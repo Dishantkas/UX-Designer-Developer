@@ -593,6 +593,16 @@ canvas{
 } .contact{
     width: 100%;
     height: 500px;
+}.copyright{
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    background-color: #122C39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #59DCC9;
+    letter-spacing: 3px;
 }
 
 
