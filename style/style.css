@@ -665,7 +665,7 @@ canvas{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    
     font-size: 1.3rem;
     
 }.contact p{
@@ -771,8 +771,14 @@ canvas{
             display: none;
         }.wskill{
             flex-direction: row;
-            gap: 50px;
+            gap: 30px;
             align-items: flex-start;
+        }.sinfo{
+            width: auto;
+        }.sinfo2{
+            width: 305px;
+        }.sinfo3{
+            width: 220px;
         }
         }
 
@@ -801,7 +807,33 @@ canvas{
         margin-bottom: 50px;
     }.cursor {
         display: none;
-      }
+      }.sinfo{
+        
+        width: 305px;
+        
+    }.wskill{
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }.workexptitle{
+        text-align: center;
+    }.item{
+        width: 40px;
+        height: 40px;
+        left: calc(100px * 12);
+    }.contact p{
+        font-size: 1.5rem;
+        
+    }.mail2{
+        font-size: 1rem;
+        justify-content: flex-start;
+
+        gap: 10px;
+        
+    }.copyright{
+        font-size: .8rem;
+        height: 40px;
+    }
 }
 
 
