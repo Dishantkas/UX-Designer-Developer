@@ -94,22 +94,37 @@ p{
     z-index: 999;
 }.navbar2{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     width: 200px;
     height: 100vh;
-    
     right: 0;
     top: 0;
-    padding: 0px 20px;
+    padding: 30px 40px 30px 20px;
     background: rgba(15, 23, 42, );
     backdrop-filter: blur(10px);
     position: fixed;
     z-index: 1000;
+    display: none;
     
-}.cancel{
+}.hmenu{
+    
+    color: #eeeeee;
+    font-family: "Rock 3D", system-ui;
+    font-size: 2rem;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    display: none;
+    
+}
+.cancel{
     color: #eeeeee;
     font-size: 2rem;
+    
 }
 .menu{
     color: #94A3B8;
@@ -119,12 +134,13 @@ p{
     width: 50%; 
     font-weight: 600;
 }.menu2{
+    padding-top: 20px ;
     color: #94A3B8;
     font-size: 1.1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
-    width: 50%; 
+    width: 100%; 
     font-weight: 600;
     gap: 20px;
 }.logo{
@@ -140,7 +156,7 @@ p{
     font-size: 2rem;
     margin-top: 30px;
     margin-left: 130px;
-    
+    display: none;
 }.social{
     height: 150px;
     width: 45px;
