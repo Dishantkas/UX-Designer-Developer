@@ -842,6 +842,27 @@ canvas{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
+    }.projecttitle2{
+        color: #eeeeee;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .prje2{
+        display: flex;
+        gap: 30px;
+        color: #59DCC9;
+        justify-content: center;
+        align-items: center;
+        
+    }.ui2{
+        background-color: #122C39;
+        padding: 8px 25px;
+        border-radius: 20px;
+    }.html2{
+        
+        padding: 8px 25px;
+        border-radius: 20px;
     }
 }
 
