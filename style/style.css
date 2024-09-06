@@ -671,6 +671,8 @@ canvas{
 }.contact p{
     font-size: 3rem;
     letter-spacing: 2px;
+}.prje{
+    display: none;
 }
 
 
@@ -833,6 +835,13 @@ canvas{
     }.copyright{
         font-size: .8rem;
         height: 40px;
+    }.prj{
+        display: none;
+    }.prje{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
