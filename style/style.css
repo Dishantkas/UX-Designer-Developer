@@ -563,7 +563,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 80px;
+    margin-top: 45px;
     
     
 }.prjtitle2 p{
@@ -707,6 +707,16 @@ canvas{
     }.mail{
         margin-right: 650px;
         scale: .9;
+    }.prj{
+        scale: .8;
+        margin-top: -50px;
+    }.project{
+        scale: .8;
+        
+    
+    }.exp{
+        width: 90%;
+        padding: 0% 5%;
     }
     }
     
@@ -753,6 +763,16 @@ canvas{
             position: absolute;
         }.home{
             height: 900px;
+        }.project{
+            scale: .8;
+            flex-direction: column;
+        
+        }.divv{
+            display: none;
+        }.wskill{
+            flex-direction: row;
+            gap: 50px;
+            align-items: flex-start;
         }
         }
 
@@ -779,7 +799,9 @@ canvas{
       
     }.name{
         margin-bottom: 50px;
-    }
+    }.cursor {
+        display: none;
+      }
 }
 
 
