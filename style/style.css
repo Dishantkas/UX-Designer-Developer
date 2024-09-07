@@ -945,6 +945,21 @@ canvas{
     margin-top: 320px;
     font-size: 2rem;
     
+}.sprjdetail{
+    width: 100%;
+    margin-top: 50px;
+}.projects{
+    padding: 0% 15% 8% 15%;
+    width: 70%;
+}.sprjimage{
+    width: 300px;
+}.sprjcontant{
+    position: absolute;
+    width: 280px;
+    margin-top: 200px;
+    padding: 10px;
+}.navbar2{
+    display: block;
 }
 }
 
