@@ -156,7 +156,7 @@ const sectionEls = document.querySelectorAll('.section');
 let =currentSection = 'home';
 window.addEventListener('scroll', () => {
     sectionEls.forEach(sectionEl =>{
-        if(window.scrollY >= sectionEl.offsetTop - 550){
+        if(window.scrollY >= sectionEl.offsetTop - 1000){
             currentSection = sectionEl.id;
         }
     });
