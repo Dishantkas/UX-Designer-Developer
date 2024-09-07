@@ -987,11 +987,20 @@ canvas{
 }
 @media (max-width:600px){
    .home{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0px 0%;
     width: 100%;
     
-   }.name1{
+   }.social{
+    
+    position: absolute;
+    margin-left: 1620px;
+    margin-bottom: 220px;
+   
+}
+   .name1{
      font-size: 3rem;
      text-align: center;
    }.name2{
@@ -1002,9 +1011,12 @@ canvas{
     letter-spacing: 5px;
 }.name{
     height: 250px;
+    position: absolute;
+    margin-bottom: 250px;
 }.mail{
     font-size: 1.1rem;
     width: 320px;
+    margin-bottom: 220px;
 }.social{
     margin-left: -100px;
     margin-top: 320px;
@@ -1012,7 +1024,7 @@ canvas{
     
 }.sprjdetail{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }.projects{
     padding: 0% 15% 8% 15%;
     width: 70%;
@@ -1040,7 +1052,7 @@ canvas{
     height: 30px;
     left: calc(80px * 12);
 }.exp{
-    height: 2000px;
+    height: 1900px;
 }.copyright{
     font-size: .7rem;
     letter-spacing: 2px;
@@ -1048,6 +1060,19 @@ canvas{
 font-size: .8rem;
 }.wrap{
     padding-top: 80px;
+}.copyright{
+    font-size: .6rem;
+}.sprjbrief{
+    font-size: .8rem;
+}.sprjtitle{
+    font-size: 1.4rem;
+}.wskill{
+    margin-top: 30px;
+    gap: 6px;
+}.wexp{
+    margin-top: 40px;
+}.contact p{
+    margin-top: 20px;
 }
 }
 
