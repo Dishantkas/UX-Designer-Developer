@@ -959,7 +959,20 @@ canvas{
     margin-top: 200px;
     padding: 10px;
 }.navbar2{
-    display: flex;
+    display: none;
+}.item{
+    width: 30px;
+    height: 30px;
+    left: calc(80px * 12);
+}.exp{
+    height: 2000px;
+}.copyright{
+    font-size: .7rem;
+    letter-spacing: 2px;
+}.mail2{
+font-size: .8rem;
+}.wrap{
+    padding-top: 80px;
 }
 }
 
