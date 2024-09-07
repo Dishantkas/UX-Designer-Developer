@@ -109,17 +109,20 @@ p{
     display: none;
     
 }.hmenu{
-    
     color: #eeeeee;
-    font-family: "Rock 3D", system-ui;
+    height: 100px;
     font-size: 2rem;
-    height: 90px;
+    padding-right: 10%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 50px;
+    width: 90%;
     display: none;
-    
+    background: rgba(15, 23, 42, );
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
 }
 .cancel{
     color: #eeeeee;
@@ -154,9 +157,11 @@ p{
     color: #59DCC9;
     font-family: "Rock 3D", system-ui;
     font-size: 2rem;
-    margin-top: 30px;
-    margin-left: 90px;
+    margin-top: 25px;
+    margin-left: 40px;
     display: none;
+    position: fixed;
+    z-index: 1001;
 }.social{
     height: 150px;
     width: 45px;
@@ -905,11 +910,12 @@ canvas{
     }.navbar{
         display: none;
     }.navbar2{
-        display: block;
+        display: none;
     }.logo2{
         display: block;
     }.hmenu{
         display: flex;
+
     }
 }
 
