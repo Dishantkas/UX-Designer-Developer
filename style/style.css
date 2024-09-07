@@ -906,7 +906,7 @@ canvas{
         flex-direction: column;
         gap: 100px;
     }.projects{
-        height: 1200px;
+        height: auto;
     }.navbar{
         display: none;
     }.navbar2{
@@ -916,9 +916,29 @@ canvas{
     }.hmenu{
         display: flex;
 
+    }.divider3{
+        margin-top: 100px;
     }
 }
-
+@media (max-width:600px){
+   .home{
+    height: 500px;
+    padding: 0px 0%;
+    width: 100%;
+    
+   }.name1{
+     font-size: 3rem;
+     text-align: center;
+   }.name2{
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+}.name3{
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+}.name{
+    height: 300px;
+}
+}
 
 
 
