@@ -110,7 +110,7 @@ p{
     
 }.hmenu{
     color: #eeeeee;
-    height: 100px;
+    height: 70px;
     font-size: 2rem;
     padding-right: 10%;
     display: flex;
@@ -156,8 +156,8 @@ p{
     position: absolute;
     color: #59DCC9;
     font-family: "Rock 3D", system-ui;
-    font-size: 2rem;
-    margin-top: 25px;
+    font-size: 1.5rem;
+    margin-top: 18px;
     margin-left: 40px;
     display: none;
     position: fixed;
@@ -937,6 +937,13 @@ canvas{
     letter-spacing: 5px;
 }.name{
     height: 300px;
+}.mail{
+    font-size: 1.1rem;
+    width: 320px;
+}.social{
+    margin-left: -100px;
+    margin-top: 340px;
+    
 }
 }
 
