@@ -487,7 +487,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 40px;
+    
     
     
 }.prjimage{
@@ -536,7 +536,10 @@ p{
 }.prjcontant{
     width: auto;
     height: auto;
-    margin-right: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin-right: 460px;
 }.prjtitle2{
     display: flex;
     align-items: center;
@@ -568,7 +571,7 @@ p{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 45px;
+    
     
     
 }.prjtitle2 p{
@@ -653,7 +656,7 @@ canvas{
     padding: 4% 13%;
     color: #eeeeee;
 }.copyright{
-    
+    font-weight: 600;
     width: 100%;
     height: 50px;
     font-size: 1.2rem;
