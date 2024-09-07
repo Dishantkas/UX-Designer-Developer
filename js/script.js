@@ -192,3 +192,43 @@ html.addEventListener('click', ()=>{
   ui.style.backgroundColor='#122C3900';
   html.style.backgroundColor='#122C39';
 } );
+
+
+
+var ui2 = document.getElementById("ui2");
+var html2 = document.getElementById("html2");
+var sprjmain = document.getElementById("sprjmain");
+var sprjmain2 = document.getElementById("sprjmain2");
+
+
+
+
+ui2.addEventListener('click', ()=>{
+  sprjmain.style.display='flex';
+  sprjmain2.style.display='none';
+  ui2.style.backgroundColor='#122C39';
+  html2.style.backgroundColor='#122C3900';
+} );
+
+html2.addEventListener('click', ()=>{
+  sprjmain2.style.display='flex';
+  sprjmain.style.display='none';
+  ui2.style.backgroundColor='#122C3900';
+  html2.style.backgroundColor='#122C39';
+} );
+
+var hmenu = document.getElementById("hmenu");
+var logo2 = document.getElementById("logo2");
+var navbar2 = document.getElementById("navbar2");
+var cancel = document.getElementById("cancel");
+
+
+hmenu.addEventListener('click', ()=>{
+  navbar2.style.display='flex';
+  hmenu.style.display='none';
+});
+cancel.addEventListener('click', ()=>{
+  navbar2.style.display='none';
+  hmenu.style.display='flex';
+});
+

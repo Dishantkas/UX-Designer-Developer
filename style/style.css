@@ -965,11 +965,12 @@ canvas{
         display: flex;
         flex-direction: column;
         gap: 100px;
-        display: none;
+        display: flex;
     }.sprjmain2{
         display: flex;
         flex-direction: column;
         gap: 100px;
+        display: none;
     }.projects{
         height: auto;
     }.navbar{
@@ -1068,11 +1069,13 @@ font-size: .8rem;
     font-size: 1.4rem;
 }.wskill{
     margin-top: 30px;
-    gap: 6px;
+    gap: 5px;
 }.wexp{
     margin-top: 40px;
-}.contact p{
-    margin-top: 20px;
+} .contact{
+    padding: 19% 13% 0% 13%;
+    color: #eeeeee;
+    height: auto;
 }
 }
 
