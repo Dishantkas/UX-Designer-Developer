@@ -693,6 +693,10 @@ canvas{
     }.mail{
         margin-right: 820px;
         scale: .9;
+    }.div1{
+        width: 480px;
+    }.div2{
+        width: 480px;
     }
     }
 
@@ -728,6 +732,10 @@ canvas{
     }.exp{
         width: 90%;
         padding: 0% 5%;
+    }.div1{
+        width: 380px;
+    }.div2{
+        width: 380px;
     }
     }
     
@@ -790,6 +798,10 @@ canvas{
             width: 305px;
         }.sinfo3{
             width: 220px;
+        }.div1{
+            width: 280px;
+        }.div2{
+            width: 280px;
         }
         }
 
@@ -988,6 +1000,10 @@ canvas{
 
     }.divider3{
         margin-top: 100px;
+    }.div1{
+        width: 240px;
+    }.div2{
+        width: 240px;
     }
 }
 @media (max-width:600px){
@@ -1080,6 +1096,10 @@ font-size: .8rem;
     padding: 19% 13% 0% 13%;
     color: #eeeeee;
     height: auto;
+}.div1{
+    width: 140px;
+}.div2{
+    width: 140px;
 }
 }
 
