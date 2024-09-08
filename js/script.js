@@ -225,7 +225,7 @@ var cancel = document.getElementById("cancel");
 
 hmenu.addEventListener('click', ()=>{
   navbar2.style.display='flex';
-  hmenu.style.display='none';
+  hmenu.style.display='flex';
 });
 cancel.addEventListener('click', ()=>{
   navbar2.style.display='none';
