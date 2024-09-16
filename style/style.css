@@ -908,7 +908,8 @@ canvas{
         cursor: pointer;
         padding: 8px 25px;
         border-radius: 20px;
-    }.sprjdetail{
+    }
+    .sprjdetail{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -967,7 +968,7 @@ canvas{
     }.sprjimage5{
         width: 400px;
         height: 200px;
-        background-image: url(../assets/7.png);
+        background-image: url(../assets/10.png);
         background-size: cover;
         mask-image: linear-gradient(
         to bottom,
@@ -979,7 +980,7 @@ canvas{
     }.sprjimage6{
         width: 400px;
         height: 200px;
-        background-image: url(../assets/8.png);
+        background-image: url(../assets/7.png);
         background-size: cover;
         mask-image: linear-gradient(
         to bottom,
@@ -992,13 +993,17 @@ canvas{
         font-size: 1.5rem;
         font-weight: 600;
         color: #eeeeee;
-    }.sprjbrief b{
+    }.sprjtitle a{
+        text-decoration: none;
+        color: #eeeeee;
+    }
+    .sprjbrief b{
         color: #59DCC9;
     }.sprjcontant{
         position: absolute;
         width: 380px;
         margin-top: 200px;
-        padding: 10px;
+        padding-left: 10px;
     }.sprjmain{
         display: flex;
         flex-direction: column;
