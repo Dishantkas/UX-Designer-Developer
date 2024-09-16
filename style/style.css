@@ -111,6 +111,7 @@ p{
     padding: 30px 50px 30px 70px;
     background: rgba(15, 23, 42, );
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     position: fixed;
     z-index: 1000;
     display: none;
@@ -133,6 +134,7 @@ p{
     display: none;
     background: rgba(15, 23, 42, );
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     cursor: pointer;
     position: fixed;
     z-index: 1000;
@@ -169,7 +171,7 @@ p{
     gap: 20px;
 }.logo{
     
-    color: #59DCC9;
+    color: #46cdb9;
     font-family: "Shojumaru", system-ui;
     font-size: 2rem;
     font-weight: 700;
@@ -177,7 +179,7 @@ p{
 }.logo2{
     font-weight: 700;
     position: absolute;
-    color: #59DCC9;
+    color: #46cdb9;
     font-family: "Shojumaru", system-ui;
     font-size: 1.5rem;
     margin-top: 18px;
@@ -570,6 +572,13 @@ p{
     margin-left: 300px;
     text-align: right;
     
+}.prjtitle2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 300px;
+    text-align: right;
+    
 }.prjbrief2{
     font-size: 1rem;
     width: 590px;
@@ -636,20 +645,20 @@ p{
     text-shadow: 4px 4px 0px #59DCC9;
     margin-left: 298px;
 }.prjimage5{
-    background-image: url(../assets/2.png);
+    background-image: url(../assets/10.png);
     background-color: #59DCC9;
     width: 517px;
     height: 326px;
     border-radius: 6px;
     margin-left: 913px;
 }.prjimage4{
-    background-image: url(../assets/3.png);
+    background-image: url(../assets/6.png);
     background-color: #59DCC9;
     width: 517px;
     height: 326px;
     border-radius: 6px;
 }.prjimage6{
-    background-image: url(../assets/3.png);
+    background-image: url(../assets/7.png);
     background-color: #59DCC9;
     width: 517px;
     height: 326px;
