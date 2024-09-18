@@ -628,15 +628,6 @@ p{
     width: 517px;
     height: 326px;
     border-radius: 6px;
-}.prjimage:hover{
-    background-image: url(../assets/1_1.png);
-    transition: ease-in-out 0.4s;
-}.prjimage2:hover{
-    background-image: url(../assets/2_1.png);
-    transition: ease-in-out 0.4s;
-}.prjimage3:hover{
-    background-image: url(../assets/3_1.png);
-    transition: ease-in-out 0.2s;
 }.prjtitle:hover{
     text-shadow: -4px 4px 0px #59DCC9;
     margin-left: 202px;
