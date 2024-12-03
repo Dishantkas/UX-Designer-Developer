@@ -526,6 +526,7 @@ p{
     width: 517px;
     height: 326px;
     border-radius: 6px;
+    
 }
 .prjtitle p{
     font-size: 1.8rem;
@@ -577,14 +578,15 @@ p{
     margin-left: 300px;
     text-align: right;
     
-}.prjtitle2{
+}.prjtitle21{
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 300px;
+    margin-left: 260px;
     text-align: right;
     
-}.prjbrief2{
+}
+.prjbrief2{
     font-size: 1rem;
     width: 590px;
     color: #8A9ABA;
@@ -621,6 +623,15 @@ p{
     color: #eeeeee;
     font-weight: 800;
     transform: scaleX(-1);
+}.prjtitle21 p{
+    font-size: 1.8rem;
+    color: #eeeeee;
+    font-weight: 800;
+}.prjtitle21 i{
+    font-size: 1rem;
+    color: #eeeeee;
+    font-weight: 800;
+    transform: scaleX(-1);
 }.prjimage2{
     background-image: url(../assets/2.png);
     background-color: #59DCC9;
@@ -628,7 +639,15 @@ p{
     height: 326px;
     border-radius: 6px;
     margin-left: 913px;
-}.prjimage3{
+}.prjimage21{
+    background-image: url(../assets/1_1.png);
+    background-color: #59DCC9;
+    width: 517px;
+    height: 326px;
+    border-radius: 6px;
+    margin-left: 913px;
+}
+.prjimage3{
     background-image: url(../assets/3.png);
     background-color: #59DCC9;
     width: 517px;
@@ -638,6 +657,9 @@ p{
     scale: 1.01;
     transition-duration: 300ms;
 }.prjimage2:hover{
+    scale: 1.01;
+    transition-duration: 300ms;
+}.prjimage21:hover{
     scale: 1.01;
     transition-duration: 300ms;
 }.prjimage3:hover{
@@ -660,6 +682,9 @@ p{
 }.prjtitle2:hover{
     text-shadow: 4px 4px 0px #59DCC9;
     margin-left: 298px;
+}.prjtitle21:hover{
+    text-shadow: 4px 4px 0px #59DCC9;
+    margin-left: 258px;
 }.prjimage5{
     background-image: url(../assets/10.png);
     background-color: #59DCC9;
@@ -954,6 +979,18 @@ canvas{
         rgba(0,0,0,1) 20%,
         rgba(0,0,0,0)
     );border-radius: 20px;
+    }.sprjimage1{
+        width: 400px;
+        height: 200px;
+        background-image: url(../assets/1_1.png);
+        background-size: cover;
+        mask-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,1),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,0)
+    );border-radius: 20px;
     }.sprjimage2{
         width: 400px;
         height: 200px;
@@ -1102,6 +1139,8 @@ canvas{
     padding: 0% 15% 8% 15%;
     width: 70%;
 }.sprjimage{
+    width: 300px;
+}.sprjimage1{
     width: 300px;
 }.sprjimage2{
     width: 300px;
